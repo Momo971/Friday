@@ -1,0 +1,13 @@
+D:\xuzihao\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.csprojAssemblyReference.cache
+D:\xuzihao\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.AssemblyInfoInputs.cache
+D:\xuzihao\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.AssemblyInfo.cs
+D:\xuzihao\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.exe
+D:\xuzihao\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.deps.json
+D:\xuzihao\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.runtimeconfig.json
+D:\xuzihao\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.runtimeconfig.dev.json
+D:\xuzihao\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.dll
+D:\xuzihao\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.pdb
+D:\xuzihao\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\xuzihao\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.csproj.CopyComplete
+D:\xuzihao\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.dll
+D:\xuzihao\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.pdb
