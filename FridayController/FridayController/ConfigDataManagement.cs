@@ -12,12 +12,11 @@ namespace FridayController
 	{
 		private List<PirateCard> _pirateList = new List<PirateCard>();
 
-		private string _configAddress = Environment.CurrentDirectory + "\\Config\\{0}.txt";
+		private string _configAddress = Environment.CurrentDirectory + "/Config/{0}.txt";
 		private string _pirateJsonName = "PirateConfig";
-		private Dictionary<string, Type> _configDictionary = new Dictionary<string, Type>
-		{
-			{ "PirateConfig", typeof(PirateCard)},
-			{ "OriginCard", typeof(OriginCard)},
+		private List<string> _configNameList = new List<string> {
+			"PirateConfig",
+			"OriginCardConfig",
 		};
 
 		public ConfigDataManagement()
@@ -27,11 +26,11 @@ namespace FridayController
 
 		private void LoadConfigData()
 		{
-			foreach(var config in _configDictionary)
+			foreach(var config in _configNameList)
 			{
-				foreach (var jtoken in GetJArrayByName(config.Key))
+				foreach (var jtoken in GetJArrayByName(config))
 				{
-					AddListByType(config.Key, jtoken);
+					AddListByType(config, jtoken);
 				}
 			}
 		}
@@ -71,11 +70,6 @@ namespace FridayController
 					uint.Parse(jobj["SpecialSkill"].ToString()),
 					uint.Parse(jobj["FreeCardsNum"].ToString())
 					);
-		}
-
-		private void AddItemToList(Type type)
-		{
-
 		}
 
 		public List<PirateCard> GetPirates()

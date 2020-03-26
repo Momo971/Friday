@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\xuzihao\\Friday\\FridayController\\FridayController\\FridayController.csproj": {}
+    "/Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/FridayController.csproj": {}
   },
   "projects": {
-    "D:\\xuzihao\\Friday\\FridayController\\FridayController\\FridayController.csproj": {
+    "/Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/FridayController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\xuzihao\\Friday\\FridayController\\FridayController\\FridayController.csproj",
+        "projectUniqueName": "/Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/FridayController.csproj",
         "projectName": "FridayController",
-        "projectPath": "D:\\xuzihao\\Friday\\FridayController\\FridayController\\FridayController.csproj",
-        "packagesPath": "C:\\Users\\xuzihao\\.nuget\\packages\\",
-        "outputPath": "D:\\xuzihao\\Friday\\FridayController\\FridayController\\obj\\",
+        "projectPath": "/Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/FridayController.csproj",
+        "packagesPath": "/Users/xuhao/.nuget/packages/",
+        "outputPath": "/Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\xuzihao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/xuhao/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
     }

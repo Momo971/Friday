@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{9B457781-2292-4FF0-91EF-36C1B3F40506}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FridayController/ConfigDataManagement.cs">
+    <Files>
+      <File FileName="FridayController/CommonEnum.cs" Line="1" Column="1" />
+      <File FileName="FridayController/ConfigDataManagement.cs" Line="22" Column="32" />
+      <File FileName="FridayController/Program.cs" />
+      <File FileName="FridayController/GameEntity.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FridayController" expanded="True">
+            <Node name="FridayController" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="ConfigDataManagement.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FridayController PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
