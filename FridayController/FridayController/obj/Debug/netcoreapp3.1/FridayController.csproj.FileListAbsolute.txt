@@ -25,3 +25,16 @@ D:/xuzihao/Friday/FridayController/FridayController/obj/Debug/netcoreapp3.1/Frid
 /Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/obj/Debug/netcoreapp3.1/FridayController.dll
 /Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/obj/Debug/netcoreapp3.1/FridayController.pdb
 /Users/xuhao/Projects/GitHub/Friday/FridayController/FridayController/obj/Debug/netcoreapp3.1/FridayController.genruntimeconfig.cache
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.dll
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.pdb
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.csprojAssemblyReference.cache
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.AssemblyInfoInputs.cache
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.AssemblyInfo.cs
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.exe
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.deps.json
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.runtimeconfig.json
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.runtimeconfig.dev.json
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.dll
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\FridayController.pdb
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\xuzihao\Source\Repos\Friday\FridayController\FridayController\obj\Debug\netcoreapp3.1\FridayController.csproj.CopyComplete

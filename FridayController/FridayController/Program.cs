@@ -10,7 +10,7 @@ namespace FridayController
 	{
 		static void Main(string[] args)
 		{
-			var temp = ConfigDataManagement.GetInstance().GetPirates()[0].ToString();
+			var temp = ConfigDataManager.GetInstance().GetPirates()[0].ToString();
 			Console.WriteLine(temp);
 		}
 	}
