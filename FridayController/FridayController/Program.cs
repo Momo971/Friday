@@ -10,10 +10,8 @@ namespace FridayController
 	{
 		static void Main(string[] args)
 		{
-			foreach(var kind in ConfigDataManager.GetInstance().GetSkillKinds())
-			{
-				Console.WriteLine(kind);
-			}
+			var card = GameManager.GetInstance().PlayerCardPile.DrawOnce();
+			Console.WriteLine(card.ToString());
 		}
 	}
 }

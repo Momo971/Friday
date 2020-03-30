@@ -20,4 +20,16 @@ namespace FridayCard
 		AGING_COST,
 		ADD_COMBAT
 	}
+
+	/// <summary>
+	/// 游戏进程
+	/// </summary>
+	public enum GAME_PROGRESS
+	{
+		READY, //准备
+		GREEN,
+		YELLOW,
+		RED,
+		DUEL //决战
+	}
 }

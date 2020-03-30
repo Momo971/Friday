@@ -19,6 +19,11 @@ namespace FridayCard
 			SpecialSkill = specialSkill;
 			LifeValueDestroyNeeded = lifeValueDestroyNeeded;
 		}
+
+		public override string ToString()
+		{
+			return CardID.ToString() + "  " + CardName;
+		}
 	}
 
 	public class OriginCard : FightingCard
