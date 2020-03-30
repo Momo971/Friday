@@ -1,5 +1,8 @@
 namespace FridayCard
 {
+	/// <summary>
+	/// 战斗卡
+	/// </summary>
 	public class FightingCard
 	{
 		public uint CardID;
@@ -25,6 +28,9 @@ namespace FridayCard
 		}
 	}
 
+	/// <summary>
+	/// 衰老卡
+	/// </summary>
 	public class AgingCard : FightingCard
 	{
 		public bool IsHard;
@@ -35,6 +41,9 @@ namespace FridayCard
 		}
 	}
 
+	/// <summary>
+	/// 冒险卡
+	/// </summary>
 	public class HazardCard : FightingCard
 	{
 		public uint FreeCardsNum;
@@ -51,6 +60,9 @@ namespace FridayCard
 		}
 	}
 
+	/// <summary>
+	/// 海盗卡
+	/// </summary>
 	public class PirateCard
 	{
 		public uint PirateID;
@@ -69,6 +81,9 @@ namespace FridayCard
 		}
 	}
 
+	/// <summary>
+	/// 技能种类
+	/// </summary>
 	public class SkillKind
 	{
 		public uint SkillKindID;
@@ -81,6 +96,9 @@ namespace FridayCard
 		}
 	}
 
+	/// <summary>
+	/// 技能配置
+	/// </summary>
 	public class SkillConfig
 	{
 		public uint SkillID;
