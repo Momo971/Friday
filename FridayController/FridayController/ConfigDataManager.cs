@@ -8,7 +8,7 @@ using Newtonsoft.Json.Linq;
 
 namespace FridayController
 {
-	public class ConfigDataManagement : Singleton<ConfigDataManagement>
+	public class ConfigDataManager : Singleton<ConfigDataManager>
 	{
 		private List<PirateCard> _pirateList = new List<PirateCard>();
 
@@ -20,7 +20,7 @@ namespace FridayController
 			{ "OriginCard", typeof(OriginCard)},
 		};
 
-		public ConfigDataManagement()
+		public ConfigDataManager()
 		{
 			LoadConfigData();
 		}
