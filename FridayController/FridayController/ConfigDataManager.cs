@@ -17,10 +17,10 @@ namespace FridayController
 		private List<AgingCard> _agingCardList = new List<AgingCard>();
 		private List<HazardCard> _hazardCardList = new List<HazardCard>();
 
-		private string _configAddress = Environment.CurrentDirectory + "\\Config\\{0}.txt";
+		private string _configAddress = Environment.CurrentDirectory + "\\Config\\{0}.json";
 		private List<string> _configNameList = new List<string>
 		{
-			"PirateConfig",
+			"PirateCard",
 			"OriginCard",
 			"SkillKind",
 			"SkillConfig",
@@ -49,7 +49,7 @@ namespace FridayController
 			var jobj = GetJObjectByJToken(jtoken);
 			switch (configName)
 			{
-				case "PirateConfig":
+				case "PirateCard":
 					_pirateList.Add(Jobj2PirateCard(jobj));
 					break;
 				case "SkillKind":

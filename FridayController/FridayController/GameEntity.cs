@@ -94,6 +94,11 @@ namespace FridayCard
 			SkillKindID = skillKindId;
 			SkillDes = skillDes;
 		}
+
+		public override string ToString()
+		{
+			return SkillKindID.ToString() + "-" + SkillDes;
+		}
 	}
 
 	/// <summary>

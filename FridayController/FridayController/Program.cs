@@ -10,8 +10,10 @@ namespace FridayController
 	{
 		static void Main(string[] args)
 		{
-			var temp = ConfigDataManager.GetInstance().GetPirates()[0].ToString();
-			Console.WriteLine(temp);
+			foreach(var kind in ConfigDataManager.GetInstance().GetSkillKinds())
+			{
+				Console.WriteLine(kind);
+			}
 		}
 	}
 }
