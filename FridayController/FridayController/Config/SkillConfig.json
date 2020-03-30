@@ -1,0 +1,23 @@
+[
+    {"SkillID":"1001","SkillKindID":"10001","SkillName":"治愈1","Param":"1"},
+    {"SkillID":"1002","SkillKindID":"10001","SkillName":"治愈2","Param":"2"},
+    {"SkillID":"1003","SkillKindID":"10002","SkillName":"强掠1","Param":"1"},
+    {"SkillID":"1004","SkillKindID":"10002","SkillName":"抢掠2","Param":"2"},
+    {"SkillID":"1005","SkillKindID":"10003","SkillName":"风暴","Param":"1"},
+    {"SkillID":"1006","SkillKindID":"10004","SkillName":"祝福","Param":"1"},
+    {"SkillID":"1007","SkillKindID":"10005","SkillName":"仿造","Param":"1"},
+    {"SkillID":"1008","SkillKindID":"10006","SkillName":"倒流","Param":"1"},
+    {"SkillID":"1009","SkillKindID":"10007","SkillName":"占卜","Param":"3"},
+    {"SkillID":"2001","SkillKindID":"20001","SkillName":"回旋镖1","Param":"1"},
+    {"SkillID":"2002","SkillKindID":"20001","SkillName":"回旋镖2","Param":"2"},
+    {"SkillID":"2003","SkillKindID":"20002","SkillName":"埋葬","Param":"1"},
+    {"SkillID":"3001","SkillKindID":"30001","SkillName":"流血","Param":"1"},
+    {"SkillID":"3002","SkillKindID":"30001","SkillName":"喷血","Param":"2"},
+    {"SkillID":"3003","SkillKindID":"30002","SkillName":"消磨","Param":"0"},
+    {"SkillID":"3004","SkillKindID":"30003","SkillName":"强制休息","Param":"0"},
+    {"SkillID":"4001","SkillKindID":"40001","SkillName":"荆棘外甲","Param":"2"},
+    {"SkillID":"4002","SkillKindID":"40002","SkillName":"一半一半","Param":"0"},
+    {"SkillID":"4003","SkillKindID":"40003","SkillName":"余危","Param":"1"},
+    {"SkillID":"4004","SkillKindID":"40004","SkillName":"时伤","Param":"2"},
+    {"SkillID":"4005","SkillKindID":"40005","SkillName":"脆弱","Param":"1"}
+]

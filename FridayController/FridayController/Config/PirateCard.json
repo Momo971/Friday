@@ -1,0 +1,14 @@
+[
+    {"PirateID":"101","PirateName":"王疯","HarzardValue":"15","SpecialSkill":"4001","FreeCardsNum":"7"},
+    {"PirateID":"201","PirateName":"齐舒","HarzardValue":"20","SpecialSkill":"4002","FreeCardsNum":"9"},
+    {"PirateID":"301","PirateName":"D","HarzardValue":"0","SpecialSkill":"4003","FreeCardsNum":"0"},
+    {"PirateID":"401","PirateName":"陆羽","HarzardValue":"0","SpecialSkill":"4001","FreeCardsNum":"8"},
+    {"PirateID":"401","PirateName":"余路","HarzardValue":"0","SpecialSkill":"4001","FreeCardsNum":"5"},
+    {"PirateID":"501","PirateName":"瘦猫·孙","HarzardValue":"50","SpecialSkill":"4005","FreeCardsNum":"10"},
+    {"PirateID":"502","PirateName":"斐烈儿","HarzardValue":"35","SpecialSkill":"4005","FreeCardsNum":"10"},
+    {"PirateID":"503","PirateName":"小贼1","HarzardValue":"27","SpecialSkill":"4005","FreeCardsNum":"8"},
+    {"PirateID":"504","PirateName":"小贼2","HarzardValue":"19","SpecialSkill":"4005","FreeCardsNum":"6"},
+    {"PirateID":"505","PirateName":"小贼3","HarzardValue":"15","SpecialSkill":"4005","FreeCardsNum":"5"},
+    {"PirateID":"506","PirateName":"小贼4","HarzardValue":"31","SpecialSkill":"4005","FreeCardsNum":"9"},
+    {"PirateID":"507","PirateName":"小贼5","HarzardValue":"23","SpecialSkill":"4005","FreeCardsNum":"7"}
+]

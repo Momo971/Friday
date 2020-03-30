@@ -1,0 +1,17 @@
+[
+    {"CardID":"10101","CardName":"退缩","CombatEffectiveness":"-1","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10102","CardName":"退缩","CombatEffectiveness":"-1","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10103","CardName":"退缩","CombatEffectiveness":"-1","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10104","CardName":"退缩","CombatEffectiveness":"-1","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10105","CardName":"退缩","CombatEffectiveness":"-1","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10201","CardName":"闲适","CombatEffectiveness":"0","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10202","CardName":"闲适","CombatEffectiveness":"0","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10203","CardName":"闲适","CombatEffectiveness":"0","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10204","CardName":"闲适","CombatEffectiveness":"0","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10205","CardName":"闲适","CombatEffectiveness":"0","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10206","CardName":"闲适","CombatEffectiveness":"0","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10207","CardName":"争斗","CombatEffectiveness":"1","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10208","CardName":"争斗","CombatEffectiveness":"1","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10301","CardName":"奋起争斗","CombatEffectiveness":"2","SpecialSkill":"0","LifeValueDestroyNeeded":"1"},
+    {"CardID":"10401","CardName":"休憩","CombatEffectiveness":"0","SpecialSkill":"1002","LifeValueDestroyNeeded":"1"}
+]

@@ -1,0 +1,19 @@
+[
+    {"SkillKind":"10001","SkillDes":"+{0}生命值"},
+    {"SkillKind":"10002","SkillDes":"+{0}卡牌"},
+    {"SkillKind":"10003","SkillDes":"{0}x摧毁"},
+    {"SkillKind":"10004","SkillDes":"{0}x加倍"},
+    {"SkillKind":"10005","SkillDes":"{0}x复制"},
+    {"SkillKind":"10006","SkillDes":"进度值-{0}"},
+    {"SkillKind":"10007","SkillDes":"排序{0}张牌"},
+    {"SkillKind":"20001","SkillDes":"{0}x更换"},
+    {"SkillKind":"20002","SkillDes":"{0}x放到底部"},
+    {"SkillKind":"30001","SkillDes":"-{0}生命值"},
+    {"SkillKind":"30002","SkillDes":"最高值={0}"},
+    {"SkillKind":"30003","SkillDes":"停止抽取"},
+    {"SkillKind":"40001","SkillDes":"生命抽卡加倍"},
+    {"SkillKind":"40002","SkillDes":"只用一半的卡牌计算战斗值"},
+    {"SkillKind":"40003","SkillDes":"与全部剩余的危险卡战斗"},
+    {"SkillKind":"40004","SkillDes":"每张衰老卡算作+{0}危险值"},
+    {"SkillKind":"40005","SkillDes":"每张已抽出的战斗卡都+{0}战斗值"}
+]

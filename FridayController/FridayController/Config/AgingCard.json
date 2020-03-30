@@ -1,0 +1,14 @@
+[
+    {"CardID":"20101","CardName":"锈蚀1","CombatEffectiveness":"-1","SpecialSkill":"0","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20102","CardName":"锈蚀2","CombatEffectiveness":"-2","SpecialSkill":"0","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20103","CardName":"锈蚀2","CombatEffectiveness":"-2","SpecialSkill":"0","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20104","CardName":"锈蚀2","CombatEffectiveness":"-2","SpecialSkill":"0","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20105","CardName":"锈蚀3","CombatEffectiveness":"-3","SpecialSkill":"0","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20106","CardName":"锈蚀4","CombatEffectiveness":"-4","SpecialSkill":"0","LifeValueDestroyNeeded":"2","IsHard":"1"},
+    {"CardID":"20107","CardName":"锈蚀5","CombatEffectiveness":"-5","SpecialSkill":"0","LifeValueDestroyNeeded":"2","IsHard":"1"},
+    {"CardID":"20201","CardName":"流血","CombatEffectiveness":"0","SpecialSkill":"3001","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20301","CardName":"喷血","CombatEffectiveness":"0","SpecialSkill":"3002","LifeValueDestroyNeeded":"2","IsHard":"1"},
+    {"CardID":"20401","CardName":"消磨","CombatEffectiveness":"0","SpecialSkill":"3003","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20402","CardName":"消磨","CombatEffectiveness":"0","SpecialSkill":"3003","LifeValueDestroyNeeded":"2","IsHard":"0"},
+    {"CardID":"20501","CardName":"强制休息","CombatEffectiveness":"0","SpecialSkill":"3004","LifeValueDestroyNeeded":"2","IsHard":"0"}
+]
