@@ -38,7 +38,6 @@ namespace FridayController
 			HazardCardPile.PileClear();
 		}
 
-
 		private void InitOriginCard()
 		{
 			foreach (var card in ConfigDataManager.GetInstance().GetOriginCards())
@@ -56,8 +55,8 @@ namespace FridayController
 			GeneralUtils.ShuffleList<AgingCard>(hardCards);
 			GeneralUtils.ShuffleList<AgingCard>(unhardCards);
 
-			AgingCardPile.AddCardList(hardCards);
 			AgingCardPile.AddCardList(unhardCards);
+			AgingCardPile.AddCardList(hardCards);
 		}
 
 		private void InitHazardCard()
@@ -68,56 +67,5 @@ namespace FridayController
 
 	}
 
-	public class CardPile<T> where T : class
-	{
-		private List<T> _cardPile = new List<T>();
-
-		public T DrawOnce()
-		{
-			T card;
-			if (_cardPile != null && _cardPile.Count != 0)
-			{
-				card = _cardPile[0];
-				_cardPile.Remove(card);
-				return card;
-			}
-
-			return null;
-		}
-
-		public void AddCard(T card)
-		{
-			_cardPile.Add(card);
-		}
-
-		public void AddCardList(List<T> cards)
-		{
-			_cardPile.AddRange(cards);
-		}
-
-		public List<T> GetPile()
-		{
-			return _cardPile;
-		}
-
-		public void PileClear()
-		{
-			_cardPile.Clear();
-		}
-
-		/// <summary>
-		/// 洗牌
-		/// </summary>
-		public void ShuffleCards()
-		{
-			Random random = new Random();
-			for (int i = 0; i < _cardPile.Count; i++)
-			{
-				var curCard = _cardPile[random.Next(i, _cardPile.Count)];
-			}
-
-		}
-
-	}
 
 }

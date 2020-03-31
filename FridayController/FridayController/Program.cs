@@ -10,8 +10,11 @@ namespace FridayController
 	{
 		static void Main(string[] args)
 		{
-			var card = GameManager.GetInstance().PlayerCardPile.DrawOnce();
-			Console.WriteLine(card.ToString());
+			foreach(var card in GameManager.GetInstance().AgingCardPile.GetPile())
+			{
+				Console.WriteLine(card.ToString());
+			}
+
 		}
 	}
 }

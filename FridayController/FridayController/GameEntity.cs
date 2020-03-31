@@ -44,6 +44,12 @@ namespace FridayCard
 		{
 			IsHard = isHard;
 		}
+
+
+		public override string ToString()
+		{
+			return CardID.ToString() + "  " + CardName+ "  " + IsHard.ToString();
+		}
 	}
 
 	/// <summary>
