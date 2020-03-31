@@ -5,7 +5,7 @@ using FridayCard;
 
 namespace FridayController
 {
-	class GameManager : Singleton<GameManager>
+	public class GameManager : Singleton<GameManager>
 	{
 		private GAME_PROGRESS _gameProgress;
 
@@ -26,6 +26,9 @@ namespace FridayController
 			InitCardPiles();
 		}
 
+		/// <summary>
+		/// 游戏开始时，初始化所有牌堆
+		/// </summary>
 		private void InitCardPiles()
 		{
 			InitOriginCard();
@@ -53,39 +56,29 @@ namespace FridayController
 			GeneralUtils.ShuffleList<AgingCard>(hardCards);
 			GeneralUtils.ShuffleList<AgingCard>(unhardCards);
 
-			foreach (var card in hardCards)
-			{
-				AgingCardPile.AddCard(card);
-			}
-
-			foreach (var card in unhardCards)
-			{
-				AgingCardPile.AddCard(card);
-			}
+			AgingCardPile.AddCardList(hardCards);
+			AgingCardPile.AddCardList(unhardCards);
 		}
 
 		private void InitHazardCard()
 		{
-			foreach (var card in ConfigDataManager.GetInstance().GetHazardCards())
-			{
-				HazardCardPile.AddCard(card);
-			}
+			HazardCardPile.AddCardList(ConfigDataManager.GetInstance().GetHazardCards());
 			HazardCardPile.ShuffleCards();
 		}
 
 	}
 
-	class CardPile<T> where T : class
+	public class CardPile<T> where T : class
 	{
-		private List<T> _cardLibrary = new List<T>();
+		private List<T> _cardPile = new List<T>();
 
 		public T DrawOnce()
 		{
 			T card;
-			if (_cardLibrary != null && _cardLibrary.Count != 0)
+			if (_cardPile != null && _cardPile.Count != 0)
 			{
-				card = _cardLibrary[0];
-				_cardLibrary.Remove(card);
+				card = _cardPile[0];
+				_cardPile.Remove(card);
 				return card;
 			}
 
@@ -94,22 +87,35 @@ namespace FridayController
 
 		public void AddCard(T card)
 		{
-			_cardLibrary.Add(card);
+			_cardPile.Add(card);
+		}
+
+		public void AddCardList(List<T> cards)
+		{
+			_cardPile.AddRange(cards);
 		}
 
 		public List<T> GetPile()
 		{
-			return _cardLibrary;
+			return _cardPile;
 		}
 
 		public void PileClear()
 		{
-			_cardLibrary.Clear();
+			_cardPile.Clear();
 		}
 
+		/// <summary>
+		/// 洗牌
+		/// </summary>
 		public void ShuffleCards()
 		{
-			//todo
+			Random random = new Random();
+			for (int i = 0; i < _cardPile.Count; i++)
+			{
+				var curCard = _cardPile[random.Next(i, _cardPile.Count)];
+			}
+
 		}
 
 	}
