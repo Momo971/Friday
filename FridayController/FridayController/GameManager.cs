@@ -20,7 +20,19 @@ namespace FridayController
 		//冒险弃牌堆
 		public CardPile<HazardCard> HazardDiscardPile = new CardPile<HazardCard>();
 
+		public PirateCard PirateFirst;
+
+		public PirateCard PirateLast;
+
+		//当前冒险卡
+		public HazardCard CurHazard;
+
 		public GameManager()
+		{
+			InitGameManager();
+		}
+
+		public void InitGameManager()
 		{
 			_gameProgress = GAME_PROGRESS.READY;
 			InitCardPiles();
@@ -63,6 +75,23 @@ namespace FridayController
 		{
 			HazardCardPile.AddCardList(ConfigDataManager.GetInstance().GetHazardCards());
 			HazardCardPile.ShuffleCards();
+		}
+
+		public void SelectPiratesRandom()
+		{
+			var pirateConfig = ConfigDataManager.GetInstance().GetPirates();
+			Random random = new Random();
+			PirateFirst = pirateConfig[random.Next(0, pirateConfig.Count)];
+			PirateLast = pirateConfig[random.Next(0, pirateConfig.Count)];
+			while(PirateFirst == PirateLast)
+			{
+				PirateLast = pirateConfig[random.Next(0, pirateConfig.Count)];
+			}
+		}
+
+		public void GameOver()
+		{
+			Console.WriteLine("Game Over!");
 		}
 
 	}

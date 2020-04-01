@@ -90,6 +90,11 @@ namespace FridayCard
 			SpecialSkill = specialSkill;
 			FreeCardsNum = freeCardsNum;
 		}
+
+		public override string ToString()
+		{
+			return PirateID.ToString() + "  " + PirateName +"  "+ SpecialSkill.ToString();
+		}
 	}
 
 	/// <summary>
